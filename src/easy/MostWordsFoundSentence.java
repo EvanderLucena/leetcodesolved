@@ -18,7 +18,7 @@ public class MostWordsFoundSentence {
                 sum = (int) count;
             }
         }
-        return sum+1;
+        return sum;
     }
     public int mostWordsFoundBetter(String[] sentences) {
         int count=0;
